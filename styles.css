@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --ff-title: 'Montserrat', sans-serif;
+    --ff-paragraph: 'DM Sans', sans-serif;
+    --ff-message: 'Dancing Script', cursive;
+
+    --font-color-tt-paragraph:#34355B;
+}
+
+body{
+    display: grid;
+    place-content: center;
+
+    min-height: 100vh;
+
+    background: linear-gradient(45deg, #190361, #BB00FF);
+}
+
+main{
+    width: 428px;
+    height: 424px;
+
+    background-color:  #FFFFFF;
+
+    padding: 48px 64px 64px;
+    border-radius: 5px;   
+}
+
+.box-front{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 312px;
+    width: 300px;
+
+    color: var(--font-color-tt-paragraph);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    
+}
+
+.box-fronth1{
+    font-family: var(--ff-title);
+    text-align: center;
+    font-size: 24px;
+}
+
+.box-front p{
+    font-family: var(--ff-paragraph);
+    text-align: center;
+    font-size: 15px;
+}
+
+.box-front.none{
+    display: none;
+}
