@@ -23,7 +23,7 @@ body{
 
 main{
     width: 428px;
-    height: 424px;
+    height: auto;
 
     background-color:  #FFFFFF;
 
@@ -47,7 +47,7 @@ main{
     
 }
 
-.box-fronth1{
+.box-front h1{
     font-family: var(--ff-title);
     text-align: center;
     font-size: 24px;
@@ -61,4 +61,49 @@ main{
 
 .box-front.none{
     display: none;
+}
+
+.box-back{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 300px;
+    height: 468px;
+
+    color: var(--font-color-tt-paragraph);
+
+}
+
+.box-back h1{
+    font-family: var(--ff-title);
+    text-align: center;
+    font-size: 24px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.box-back p{
+    font-family: var(--ff-message);
+    font-size: 24px;
+    text-align: center;
+
+    padding: 10px;
+
+    background: #E4EDF1;
+
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+}
+
+.box-back button{
+    background: #FF9500;
+    border-radius: 4px;
+    padding: 16px;
+
+    border: none;
+
+    font-family: var(--ff-paragraph);
+    color: #FFFFFF;
+    font-weight: 700;
 }
