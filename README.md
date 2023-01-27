@@ -11,6 +11,8 @@ Desafio para a construção do jogo Biscoito da Sorte como parte do Nível 05 do
 
 ## Demonstração
 
+![image](https://user-images.githubusercontent.com/62970936/215088758-8b6d69f2-f15b-40eb-a3bf-cb1ac626c171.png)
+
 Link para conhecer um pouco mais o projeto finalizado:
 
 https://hersonmei.github.io/BiscoitoDaSorte/
