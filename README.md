@@ -1,6 +1,6 @@
 # Biscoito da Sorte
 
-Desafio para a construção do jogo Biscoito da Sorte como parte do Nível 05 do curso Explorer. Nesse projeto deu para aplicar os seguintes conhecimentos:
+Desafio para a construção do jogo Biscoito da Sorte como parte do Nível 05 do curso Explorer. For um projeto simples mas bem legal de fazer, nele consegui aplicar os seguintes conhecimentos:
 
 - Estrutura de dados HTML
 - Animações com CSS
